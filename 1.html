@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>STOP</title>
+
+  <style type="text/css">
+    * {
+      font-family: sans-serif;
+    }
+    body {
+      background: #f00;
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/35/Blinking_Stop_hand.gif');
+      color: #fff;
+      text-shadow: 1px 1px 3px #fff, 2px 2px 3px #000, 3px 3px 3px #fff, 4px 4px 3px #000;
+    }
+
+    h1 {
+      font-size: 5em;
+      text-align: center;
+    }
+
+    h1 span {
+      animation: Blink 1s steps(2, start) infinite;
+    }
+
+    @keyframes Blink {
+      to {
+        visibility: hidden;
+      }
+    }
+
+
+  </style>
+</head>
+<body>
+  <h1>
+    <span style="animation-delay: -1.000s; animation-duration: 1.00s">🛑</span>
+    <span style="animation-delay: -0.500s; animation-duration: 1.00s">🛑</span>
+    <span style="animation-delay: -0.333s; animation-duration: 1.00s">🛑</span>
+    <span style="animation-delay: -0.250s; animation-duration: 1.00s">🛑</span>
+    <span style="animation-delay: -0.200s; animation-duration: 1.00s">🛑</span>
+    <span style="animation-delay: -0.167s; animation-duration: 1.00s">🛑</span>
+    <span style="animation-delay: -0.143s; animation-duration: 1.00s">🛑</span>
+    <span style="animation-delay: -0.125s; animation-duration: 1.00s">🛑</span>
+  </h1>
+
+  <h1>
+    <span style="animation-delay: -2.000s; animation-duration: 2.00s">🛑</span>
+    <span style="animation-delay: -1.000s; animation-duration: 2.00s">🛑</span>
+    <span style="animation-delay: -0.667s; animation-duration: 2.00s">🛑</span>
+    <span style="animation-delay: -0.500s; animation-duration: 2.00s">🛑</span>
+    <span style="animation-delay: -0.400s; animation-duration: 2.00s">🛑</span>
+    <span style="animation-delay: -0.333s; animation-duration: 2.00s">🛑</span>
+    <span style="animation-delay: -0.286s; animation-duration: 2.00s">🛑</span>
+    <span style="animation-delay: -0.250s; animation-duration: 2.00s">🛑</span>
+  </h1>
+
+  <h1>
+    <span style="animation-delay: -3.000s; animation-duration: 3.00s">🛑</span>
+    <span style="animation-delay: -1.500s; animation-duration: 3.00s">🛑</span>
+    <span style="animation-delay: -1.000s; animation-duration: 3.00s">🛑</span>
+    <span style="animation-delay: -0.750s; animation-duration: 3.00s; background: #000; padding: 0.25em;">STOP</span>
+    <span style="animation-delay: -0.500s; animation-duration: 3.00s">🛑</span>
+    <span style="animation-delay: -0.429s; animation-duration: 3.00s">🛑</span>
+    <span style="animation-delay: -0.375s; animation-duration: 3.00s">🛑</span>
+  </h1>
+
+  <h1>
+    <span style="animation-delay: -4.000s; animation-duration: 4.00s">🛑</span>
+    <span style="animation-delay: -2.000s; animation-duration: 4.00s">🛑</span>
+    <span style="animation-delay: -1.333s; animation-duration: 4.00s">🛑</span>
+    <span style="animation-delay: -1.000s; animation-duration: 4.00s">🛑</span>
+    <span style="animation-delay: -0.800s; animation-duration: 4.00s">🛑</span>
+    <span style="animation-delay: -0.667s; animation-duration: 4.00s">🛑</span>
+    <span style="animation-delay: -0.571s; animation-duration: 4.00s">🛑</span>
+    <span style="animation-delay: -0.500s; animation-duration: 4.00s">🛑</span>
+  </h1>
+
+  <h1>
+    <span style="animation-delay: -5.000s; animation-duration: 5.00s">🛑</span>
+    <span style="animation-delay: -2.500s; animation-duration: 5.00s">🛑</span>
+    <span style="animation-delay: -1.667s; animation-duration: 5.00s">🛑</span>
+    <span style="animation-delay: -1.250s; animation-duration: 5.00s">🛑</span>
+    <span style="animation-delay: -1.000s; animation-duration: 5.00s">🛑</span>
+    <span style="animation-delay: -0.833s; animation-duration: 5.00s">🛑</span>
+    <span style="animation-delay: -0.714s; animation-duration: 5.00s">🛑</span>
+    <span style="animation-delay: -0.625s; animation-duration: 5.00s">🛑</span>
+  </h1>
+
+
+
+
+</body>
+</html>
+
+<!-- <script type="text/javascript">
+
+  for (let i = 0; i < 5; i++) {
+    let str = '<h1>'
+    for (let j = 0; j < 8; j++) {
+      const duration = i + 1
+      const delay = duration / (j+1)
+      str += `<span style="animation-delay: -${delay.toFixed(3)}s; animation-duration: ${duration.toFixed(2)}s">🛑</span>`
+
+    }
+    str += '</h1>'
+    console.log(str)
+
+  }
+</script> -->
